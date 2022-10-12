@@ -8,9 +8,8 @@ Console.WriteLine("Введите число");
 string num = Console.ReadLine();
 
 int a = int.Parse(num);
-int ostatok = a%2;
 
-if (ostatok == 0)
+if (a%2 == 0)
 Console.Write($"{a} - чётное");
 
 else
